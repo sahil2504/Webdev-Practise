@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>This</title>
+	<script src="JS/this.js" type="text/javascript" charset="utf-8" async defer></script>
+</head>
+<body>
+	<style type="text/css">
+		img{
+			height: 200px;
+			width: 200px;
+		}
+	</style>
+	<img src="image/image.jpg" alt="picture of ocean" onclick="console.log(this.alt)">
+	<div onclick="console.log(this.innerHTML)">Hi there, checing out a div</div>
+	<hr>
+	<img src="image/logo.png" alt="picture of weightlifter" id="ID-1" onclick="displayID(this)">
+	<div id="ID-2" onclick="displayID(this)">Another div</div>
+</body>
+</html>

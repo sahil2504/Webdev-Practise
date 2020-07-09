@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>FORMS</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<style type="text/css">
+		label{
+			display: block;
+			margin: 10px;
+		}
+		form{
+			width: 50%;
+			margin: 0 auto;
+		}
+		#submit{
+			display: block;
+			width: 100px;
+			margin: 0 auto;
+		}
+	</style>
+	<form>
+		<fieldset>
+			<legend><h2>Personal Information</h2></legend>
+			<label>Name:<input type="text" name="name" required></label>
+			<label>E-mail:<input type="email" name="email" placeholder="sahilmishra@gmail.com" required></label>
+			<label>Password:<input type="password" name="pswd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8-16}" required></label>
+			<label>Date-of-Birth:<input type="date" name="DOB" value="DOB" required></label>
+			Gender:
+			<label><input type="radio" name="gender" value="male">Male</label>
+			<label><input type="radio" name="gender" value="female">Female</label>
+			Subscribe:
+			<label><input type="checkbox" name="contact1" value="mail">Contact via Mail</label>
+			<label><input type="checkbox" name="contact2" value="call">Contact via Phone</label>
+			<label>Phone No.:<input type="text" name="pnumber" pattern="[7-9]{1}+[0-9]{9}"></label>
+			<label>Number: <input type="number" name="numberInput" min="1" max="5"></label>
+			<label>Range: <input type="range" name="rangeInput" min="1" max="10"></label>
+			<label>Color: <input type="color" name="colorInput" min="1" max="10"></label>
+			<label>URL: <input type="url" name="urlInput"></label>
+			<input id="submit" type="submit" name="SUBMIT">
+		</fieldset>
+	</form>
+</body>
+</html>

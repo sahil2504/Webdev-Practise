@@ -1,0 +1,31 @@
+(1) Hi Everyone!! I appreciate you reviewing my Assignment! Thank You!!
+
+(2) I have made my Fitness Portfolio from scratch using BOOTSTRAP 4.
+
+(3) First let me show you that all my HTML files are Validated by W3C
+    without any errors.
+
+(4) As you saw all my files are validated without any errors.
+
+(5) Now let me show you the responsiveness of all my wepages with different
+    screen sizes.
+
+(6) As you all can see the content of the pages adjust according to
+    different screen sizes.
+
+(7) Is the site well styled?? I would leave it to you all and would love
+    your feedback in the comment section.
+
+(8) Are the Images Incorporated effectively? Let me show you all again.
+
+(9) The four unique elements that i have added to my website are
+
+    1. I have used FontAwesome icons in my wepages.
+    2. I added Image carousels on two pages with with responsive design to different screen sizes. I have also added caption to it.
+    3. I have added an Embeded YouTube video using BOOTSTRAP 4.
+    4. I have incorporated JavaScript to enlarge the certificate when in 2 columns for better viewing experience of user.
+    5. I have used JavaScript to check whether the email address entered are same or not for precision.
+    6. I have similary added JavaScript to check Mobile No pattern and age above 16.
+    7. I have added JavaScript function which automatically corrects the height input of user if a user enters more than 11 inches then the feet value gets incremented and inch value is set accordingly.
+
+(10) Thank you everyone for taking out your time!! Hoping for your positive      response. Do leave back your feedback! Thank you!!

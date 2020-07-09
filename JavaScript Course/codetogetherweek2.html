@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Code Together</title>
+	<link rel="stylesheet" href="">
+	<script src="JS/codetogetherweek2.js" type="text/javascript" charset="utf-8" async defer></script>
+</head>
+<body>
+	<style type="text/css">
+		button{
+			border: 2px solid #000000;
+			border-radius: 10px;
+			background-color: orange;
+			padding: 5px;
+			margin: 5px;
+			width: 100px;
+			color: #ffffff;
+			text-transform: uppercase;
+			font-weight: bold;
+		}
+		p{
+			border: 2px solid #000000;
+			display: table;
+			padding: 5px;
+			margin: 10px;
+		}
+		#text{
+			background-color: #666666;
+		}
+	</style>
+	<h1>Modify the DOM</h1>
+	<button onclick="change('First')">First</button>
+	<button onclick="change('Second')">Second</button>
+	<p>This code shouldn't change</p>
+	<p id="text">This text changes</p>
+	<p>This shouldn't change either</p>
+</body>
+</html>

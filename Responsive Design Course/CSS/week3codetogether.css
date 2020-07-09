@@ -1,0 +1,17 @@
+div[class^="d"]{
+  border: 1px solid black;
+  margin-top:3%;
+}
+
+div[class*=lg-block]{
+  color:red;
+  font-size:3em;
+}
+div[class*=md-block]{
+  color:blue;
+  font-size:3em;
+}
+div[class*=sm-block]{
+  color:green;
+  font-size:2em;
+}

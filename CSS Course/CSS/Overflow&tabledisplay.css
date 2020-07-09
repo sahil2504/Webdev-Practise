@@ -1,0 +1,8 @@
+div{
+       margin:15px;
+       background-color: green;
+       display: table;
+       width: 30%;
+       overflow: auto;
+       float: left;
+}

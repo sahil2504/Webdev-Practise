@@ -1,0 +1,22 @@
+span{
+     background-color: red;
+     display: inline-block;
+     height: 100px;
+     width: 20%;
+     float: right
+}
+
+p{
+		  background-color: yellow;
+		  height: 100px;
+      display: inline-block;
+}
+
+     
+div{
+       clear: both;
+       margin:15px;
+       background-color: green;
+       height: 100px;
+       display: inline-block;
+}
